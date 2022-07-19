@@ -20,7 +20,7 @@ namespace Desafio1
             {
                 while (!sucesso)
                 {
-                    Console.Write("Digite seu número a ser convertido: ");
+                    Console.Write("Digite seu número de 1 a 3999 a ser convertido para numerais romanos: ");
                     sucesso = int.TryParse(Console.ReadLine(), out numero);
                 }
                 Conversao(numero);
