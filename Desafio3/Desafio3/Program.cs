@@ -23,7 +23,9 @@ namespace Desafio3
                 Unidade(resto % 10);
                 
                 //Depois dele rodar os ultimos 3 algarismos, verificar se ainda possui mais, e se possuir, fazer o mesmo processo, apenas adicionando
-                //mil ou milhão ao final do produto. Isso seria verificado através do contador, que conta a cada 3 algarismos trabalhados
+                //mil ou milhão ao final do produto. Isso seria verificado através do contador, que conta a cada 3 algarismos trabalhados.
+                //Cada vez que fossem trabalhados os 3 últimos algarismos, eles seriam retirados do número original
+                //Quando não houvesse mais número a ser trabalhado, ou seja, numeroInt for zero, o processo seria terminado e o resultado exibido 
             }
         }
 
